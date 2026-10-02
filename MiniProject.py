@@ -32,3 +32,8 @@ plt.xlabel('Attendance')
 plt.ylabel('Final Marks')
 plt.title('Relationship between Attendance and Final Marks')
 plt.show()
+
+plt.boxplot(df['Final_Marks'])
+plt.ylabel('Final Marks')
+plt.title('Distribution of Final Marks')
+plt.show()
