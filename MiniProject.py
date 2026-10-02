@@ -25,7 +25,7 @@ print(df)
 print(df.head())
 print(df.info())
 print(df.describe())
-#Mental note:(these above arecalled EDA - Exploratory Data Analysis)
+#Mental note:(these above are called EDA - Exploratory Data Analysis)
 
 plt.scatter(df['Attendance'], df['Final_Marks'])
 plt.xlabel('Attendance')
